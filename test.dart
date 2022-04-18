@@ -30,8 +30,8 @@ void main() {
 
   String comPlete() {
     print("Have you completed university?: ");
-    String? isComplete = stdin.readLineSync()!;
-    return isComplete;
+    String? isCompleted = stdin.readLineSync()!;
+    return isCompleted;
   }
 
   print(myAge());
